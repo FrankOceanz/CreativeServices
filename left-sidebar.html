@@ -10,6 +10,26 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<style>
+			#sidebar {
+				background-color: #d8d9da; ; /* Background image path */
+				background-size: cover; /* Cover the entire background */
+				padding: 20px; /* Add padding for content */
+				color: white; /* Text color for better contrast */
+				overflow: hidden; /* Ensure the background image covers the entire div */
+				height: 5120px;
+			}
+			#sidebar section {
+				margin-bottom: 20px; /* Add spacing between sections */
+			}
+			.image.fit img {
+				width: 100%; /* Ensure images fill their containers */
+				display: block; /* Remove any extra space below images */
+			}
+		</style>
+
+		
 	</head>
 	<body class="is-preload left-sidebar">
 		<div id="page-wrapper">
@@ -75,7 +95,7 @@
 											<h5>Management Department</h5>
 											<ul class="style2">
 												<div class="row gtr-50">
-													<div class="col-6"><a href="#" class="image fit"><img src="images/t2.jpg" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="images/t2.jpg" width="00" height="100" /></a></div>
 													
 												</div>
 											</ul>
@@ -115,14 +135,60 @@
 
 											<h5>Consultants</h5>
 											<ul class="style2">
-												<div class="row gtr-50">
+												<div class="row gtr-100">
 													<div class="col-6"><a href="#" class="image fit"><img src="images/t2.jpg" alt="" /></a></div>
 													
 												</div>
 											</ul>
 										</section>
 
-										
+										<section>
+											<header class="major">
+												<h3>Get in touch</h3>
+											</header>
+											<p>We value your feedback and inquiries. If you have any questions, suggestions, or simply want to say hello, feel free to reach out to us. Our team is here to assist you. Drop us a message using the form below, and we'll get back to you as soon as possible. Thank you for considering us for your needs.</p>
+											<ul class="contact">
+												<li class="icon solid fa-envelope"><a href="#">information@cs.com</a></li>
+												<li class="icon solid fa-phone">(263) 46-50078</li>
+												<li class="icon solid fa-home">124 Jason Moyo Road <br />
+												Harare, Zimbabwe</li>
+											</ul>
+											
+										</section>
+										<section class="widget contact">
+											
+											<ul>
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+												<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+											</ul>
+											
+										</section>
+
+										<section>
+											<h3>Testimonies</h3>
+											<form method="post" action="#">
+												<div class="fields">
+													<div class="field half">
+														<label for="name">Name</label>
+														<input type="text" name="name" id="name" />
+													</div>
+													<div class="field half">
+														<label for="email">Email</label>
+														<input type="text" name="email" id="email" />
+													</div>
+													<div class="field">
+														<label for="message">Message</label>
+														<textarea name="message" id="message" rows="5"></textarea>
+													</div>
+												</div>
+												<ul class="actions">
+													<li><a href="" class="button submit">Send Message</a></li>
+												</ul>
+											</form>
+										</section>
 
 								</div>
 							</div>
@@ -193,44 +259,7 @@
 			<!-- Footer -->
 				<div id="footer-wrapper">
 					<footer id="footer" class="container">
-						<div class="row">
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Contact -->
-									<section class="widget contact">
-										<h3>Contact Us</h3>
-										<ul>
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-										</ul>
-										<p>1234 J Moyo Road<br />
-											Harare, Zimbabwe<br />
-											(263) 77550000</p>
-									</section>
-
-							</div>
-						</div>
+				
 						<div class="row">
 							<div class="col-12">
 								<div id="copyright">
